@@ -1,26 +1,26 @@
 {
-  "title": "Nanda Okitavera",
-  "description": "Android and Web Stuff",
-  "url": "https://okitavera.me",
-  "repository": "https://github.com/okitavera/okitavera.me",
+  "title": "Selim Zaouali",
+  "description": "Web, Mobile and game developer",
+  "url": "https://portfoliov3.netlify.com",
+  "repository": "https://github.com/mrsmook/Personal-Portfolio-11ty",
   "author": {
-    "name": "Nanda Okitavera",
-    "email": "codeharuka.yusa@gmail.com",
-    "photo": "https://github.com/okitavera.png?size=180",
-    "twitter": "okitavera",
-    "github": "okitavera"
+    "name": "Selim Zaouali",
+    "email": "mrsmook.dev@gmail.com",
+    "photo": "https://github.com/mrsmook.png?size=180",
+    "twitter": "MrSm0oK",
+    "github": "mrsmook"
   },
   "site": {
     "output": "./.build",
-    "google_verification": "google9ab7bf08387cc375"
+    "google_verification": "googlece185366de896575"
   },
   "feed": {
-    "title": "RSS Feed for okitavera's articles",
-    "subtitle": "okitavera's personal pages",
+    "title": "RSS Feed for mrsmook's articles",
+    "subtitle": "mrsmook's personal pages",
     "path": "/article/feed.xml"
   },
   "disqus": {
     "enable": "true",
-    "username": "okitavera"
+    "username": "mrsmook"
   }
 }
