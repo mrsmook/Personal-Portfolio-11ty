@@ -6,22 +6,23 @@ title: About Me
 
 # Bio
 
-I'm an Android Developer who focus on application performance and user experience.
-For now, I use Kotlin as my language-of-choice for building my apps. But also I learn about web development, especially JavaScript recently.
-I also love enhancing my devices performance by hacking the linux kernel, and tweaking some software configurations.
-When I’m not on the text editor, I enjoy playing video games, shopping, watching movies, and ofcourse listening to melodic-metal music.
+I love my Wife, son and PC-Setup.
+
+When i'm not on the summoner's rift with my friends, i code awesome stuff. I always try to challenge myself to learn new technologies.
+Obtained my Engineering degree in Computer Science from ESPRIT. I enjoy writing clean code Im addicted to computer science, new technologies , physics and videos games.
+As a craftsman i have a lot of tools WEB tools (PHP,LARAVEL,JAVASCRIPT,MySQL) , many High-tech potions (AR/VR,IOT,ANDROID) Legendary GAME Gear (+∞ HP) (Unity, Construct)
 
 # Skill
 
-{% progressBar "Kotlin", "60%" %}
+{% progressBar "JavaScript", "60%" %}
 
-{% progressBar "JavaScript", "20%" %}
+{% progressBar "HTML/CSS", "70%" %}
 
-{% progressBar "CSS", "50%" %}
+{% progressBar "Mobile", "50%" %}
 
-{% progressBar "Bash", "80%" %}
+{% progressBar "PHP", "80%" %}
 
-{% progressBar "Linux", "60%" %}
+{% progressBar "MySQL", "60%" %}
 
 ... And because Gaming is now a skill, so ...
 
@@ -29,9 +30,8 @@ When I’m not on the text editor, I enjoy playing video games, shopping, watchi
 
 # Get In Touch
 
-Nanda Okitavera
-Android and Web Developer
-codeharuka.yusa@gmail.com
+Selim Zaouali
+mrsmook.dev@gmail.com
 
 <h1>
 <a aria-label="twitter" href="https://twitter.com/{{ metadata.author.twitter }}"><i class="fea-twitter"></i></a>
