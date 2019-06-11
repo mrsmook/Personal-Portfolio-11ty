@@ -10,6 +10,7 @@
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
+    Content-Type = "application/javascript; charset=utf-8"
 
 [[headers]]
   for = "/assets/fonts/*"
