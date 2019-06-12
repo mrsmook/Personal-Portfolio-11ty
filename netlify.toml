@@ -5,7 +5,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options= ALLOWALL
+    X-Frame-Options= "ALLOWALL"
     Feature-Policy = "camera 'none'; geolocation 'none'; microphone 'none'"
 
 [[headers]]
