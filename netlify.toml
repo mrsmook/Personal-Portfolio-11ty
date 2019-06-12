@@ -5,8 +5,8 @@
 [[headers]]
   for = "/*"
   [headers.values]
+    X-Frame-Options: ALLOWALL
     Feature-Policy = "camera 'none'; geolocation 'none'; microphone 'none'"
-    Content-Type = "application/javascript; charset=utf-8"
 
 [[headers]]
   for = "/assets/fonts/*"
