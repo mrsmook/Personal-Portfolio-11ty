@@ -1,59 +1,9 @@
 {
   "friends": [
     {
-      "name": "addy",
-      "url": "https://addy-dclxvi.github.io",
-      "img": "https://github.com/addy-dclxvi.png?size=128"
-    },
-    {
-      "name": "black4t",
-      "url": "https://github.com/black4t",
-      "img": "https://github.com/black4t.png?size=128"
-    },
-    {
-      "name": "epsi-rns",
-      "url": "https://epsi-rns.gitlab.io",
-      "img": "https://github.com/epsi-rns.png?size=128"
-    },
-    {
-      "name": "reorr",
-      "url": "https://chamelemon.site",
-      "img": "https://github.com/reorr.png?size=128"
-    },
-    {
-      "name": "fikriomar16",
-      "url": "https://github.com/fikriomar16",
-      "img": "https://github.com/fikriomar16.png?size=128"
-    },
-    {
-      "name": "bandithijo",
-      "url": "https://bandithijo.com",
-      "img": "https://github.com/bandithijo.png?size=128"
-    },
-    {
-      "name": "aflasio",
-      "url": "https://aflasio.com",
-      "img": "https://blog.aflasio.com/images/seira.jpg"
-    },
-    {
-      "name": "habibmustofa",
-      "url": "https://habib-mustofa.com",
-      "img": "https://d33wubrfki0l68.cloudfront.net/88230007afaaa7c4a91bdcc733e9a06116863e04/ea027/static/habibmustofa-4fc7b79461acd6a04cd9e20134bcef74.jpg"
-    },
-    {
-      "name": "ypraw",
-      "url": "https://yupraw.me",
-      "img": "https://github.com/ypraw.png?size=128"
-    },
-    {
-      "name": "drzaln",
-      "url": "https://drzaln.github.io",
-      "img": "https://github.com/drzaln.png?size=128"
-    },
-    {
-      "name": "galihx11",
-      "url": "https://linuxisekai.github.io",
-      "img": "https://github.com/linuxisekai.png?size=128"
+      "name": "okitavera",
+      "url": "https://github.com/okitavera/okitavera.me",
+      "img": "https://github.com/okitavera/okitavera.me?size=128"
     }
   ]
 }
