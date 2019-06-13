@@ -4,4 +4,4 @@ Allow: /
 Disallow: /articles/tags/all
 Disallow: /articles/tags/tags
 
-Sitemap: https://portfoliov3.netlify.com/sitemap.xml
+Sitemap: https://my-cockpit.space/sitemap.xml
