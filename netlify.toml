@@ -5,8 +5,11 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options= "ALLOWALL"
     Feature-Policy = "camera 'none'; geolocation 'none'; microphone 'none'"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
 
 [[headers]]
   for = "/assets/fonts/*"
