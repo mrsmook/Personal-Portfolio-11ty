@@ -33,34 +33,9 @@ function parseTwitterDate(tdate) {
 }
 
 function themeSwitcher() {
-  
-	var refresh;
-	// Duration count in seconds
-	const duration = 1000 * 10;
-	// Giphy API defaults
-	const giphy = {
-		baseURL: "https://api.giphy.com/v1/gifs/",
-		apiKey: "QlUV0up2ffvILx5U5PSNORHCnCxiF3ZC",
-		tag: "darth-vader",
-		type: "random",
-		rating: "pg-18"
-	};
-	// Target gif-wrap container
-	const $gif_wrap = $("#dank-splash");
-	// Giphy API URL
-	let giphyURL = encodeURI(
-		giphy.baseURL +
-			giphy.type +
-			"?api_key=" +
-			giphy.apiKey +
-			"&tag=" +
-			giphy.tag +
-			"&rating=" +
-			giphy.rating
-	);
+  let apiUrl = "https://api.giphy.com/v1/gifs/random?api_key=QlUV0up2ffvILx5U5PSNORHCnCxiF3ZC";
 
-	// Call Giphy API and render data
-	var newGif = () => $.getJSON(giphyURL, json => renderGif(json.data));
+
 
   let splash = `
   <div class="dank-splash__body">
@@ -86,20 +61,7 @@ function themeSwitcher() {
     sessionStorage.dankMode = body.classList.contains("dank");
     setTimeout(() => body.removeChild(dank), timeTo.remove);
   }, timeTo.paint);
-  
-  
-	// Display Gif in gif wrap container
-	var renderGif = _giphy => {
-		console.log(_giphy);
-		// Set gif as bg image
-		$gif_wrap.css({
-			"background-image": 'url("' + _giphy.image_original_url + '")'
-		});
-		// Start duration countdown
-		// refreshRate();
-	};
-	
-  
+  loadJSON(apiUrl, giphyLoaded);
 }
 
 function onPageScroll() {
@@ -122,6 +84,11 @@ function onPageLoad() {
     date.innerHTML = parseTwitterDate(date.getAttribute("data-date"));
   });
   disqusLoader(disqusdata.username);
+}
+
+function giphyLoaded(respObj) {
+  console.log("in loaded", respObj);
+  let imgsrc = respObj.data.image_original_url;
 }
 
 if (!"scroll-behaviour" in document.documentElement.style)
