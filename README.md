@@ -1,8 +1,4 @@
-# okitavera.me
-
-> everybody loves source code, isn't it ?
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2693ef39-e7b6-4c20-b375-0d7ac3619925/deploy-status)](https://app.netlify.com/sites/okitavera/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/536deb7a-b805-4cde-b578-d63e9a3f3c63/deploy-status)](https://app.netlify.com/sites/portfoliov3/deploys)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![eleventy](https://img.shields.io/badge/staticgen-eleventy-%23707070.svg)](https://11ty.io)
