@@ -39,7 +39,90 @@ function themeSwitcher() {
       <span class="dank-splash__wave"></span>
       <span class="dank-splash__wave"></span>
       <span class="dank-splash__overlay"></span>
-      <img class="dank-splash" src="/assets/img/me.png">
+<div class="dank-splash">
+      <div class="container">
+		<div class="window">
+			<div class="cloud" id="first-cloud"></div>
+			<div class="cloud" id="second-cloud"></div>
+		</div>
+		<div class="small-monitor">
+			<div class="bar">
+				<div class="button" id="red"></div>
+				<div class="button" id="yellow"></div>
+				<div class="button" id="green"></div>
+			</div>
+			<div class="screen">
+				<ul class="code">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li class="inline-code" id="line-1"></li>
+					<li class="inline-code" id="line-2"></li>
+					<li class="inline-code" id="line-3"></li>
+					<li class="inline-code" id="line-4"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main-monitor">
+			<div class="bar">
+				<div class="button" id="red"></div>
+				<div class="button" id="yellow"></div>
+				<div class="button" id="green"></div>
+			</div>
+			<div class="screen">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<div class="avatar">
+			<div class="avatar-neck"></div>
+			<div class="avatar-collar"></div>
+			<div class="avatar-body"></div>
+			<div class="avatar-head"></div>
+		</div>
+	</div>
+</div>
       <div class="dank-splash__msg">${
     body.classList.contains("dank") ? "Deactivating" : "Activating"
     } Dank mode</div>
