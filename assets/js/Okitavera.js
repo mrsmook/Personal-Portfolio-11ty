@@ -33,17 +33,18 @@ function parseTwitterDate(tdate) {
 }
 
 function themeSwitcher() {
-  let apiUrl = "https://api.giphy.com/v1/gifs/random?api_key=QlUV0up2ffvILx5U5PSNORHCnCxiF3ZC";
   let splash = `
   <div class="dank-splash__body">
     <div class="dank-splash__container">
       <span class="dank-splash__wave"></span>
       <span class="dank-splash__wave"></span>
       <span class="dank-splash__overlay"></span>
-      <div class="dank-splash" id="dank-splash">
+      <img class="dank-splash" src=${
+    body.classList.contains("dank") ? "/assets/img/leave.gif" : "/assets/img/enter.gif"
+    }>
       <div class="dank-splash__msg">${
-    body.classList.contains("dank") ? "Deactivating" : "Activating"
-    } Dank mode</div>
+    body.classList.contains("dank") ? "Leaving the Dark Side" : "Entring the Dark Side"
+    }</div>
     </div>
   </div>`;
   body.insertAdjacentHTML("beforeend", splash.trim());
@@ -58,7 +59,6 @@ function themeSwitcher() {
     sessionStorage.dankMode = body.classList.contains("dank");
     setTimeout(() => body.removeChild(dank), timeTo.remove);
   }, timeTo.paint);
-  loadJSON(apiUrl);
 }
 
 function onPageScroll() {
@@ -81,26 +81,6 @@ function onPageLoad() {
     date.innerHTML = parseTwitterDate(date.getAttribute("data-date"));
   });
   disqusLoader(disqusdata.username);
-}
-
-function loadJSON(requestUrl){
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'myservice/username?id=some-unique-id');
-xhr.onload = function() {
-    if (xhr.status === 200) {
-        alert('User\'s name is ' + xhr.responseText);
-        giphyLoaded(xhr.responseText);
-    }
-    else {
-        alert('Request failed.  Returned status of ' + xhr.status);
-    }
-};
-xhr.send();
-}
-
-function giphyLoaded(respObj) {
-  console.log("in loaded", respObj);
-  let imgsrc = respObj.data.image_original_url;
 }
 
 if (!"scroll-behaviour" in document.documentElement.style)
